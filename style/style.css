@@ -59,3 +59,12 @@ margin:0px
 .i-position{
     justify-content: left;
 }
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+.skill {
+    padding: 10px;
+    border-radius: 5px;
+   
+}
