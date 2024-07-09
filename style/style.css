@@ -1,0 +1,61 @@
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+*{
+margin:0px
+}
+.azeret-mono-uniquifier {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.bp{
+      
+    align-items: center;
+    justify-content: center;
+     
+}
+.background-pc{
+    background-image: url(../image/Hero-bg.png);
+    width: 1440px;
+    height: 652px;
+    
+     
+     
+}
+ 
+.banner-title{
+    text-align: center;
+}
+.banneer-description{
+    text-align: center;
+    width: 50%;
+    height: 10px;
+}
+
+.banner-btn{
+   background-color:rgba(13, 19, 33, 1);
+     color: white;
+     
+ }
+    
+ 
+.text-center{
+   text-align: center;
+ 
+  
+    
+}
+.banner-2{
+    display: flex;
+    
+}
+.banner-p{
+   text-align: bottom;
+}
+.ban-posting{
+    text-align: right;
+}
+.i-position{
+    justify-content: left;
+}
