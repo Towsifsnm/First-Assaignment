@@ -18,12 +18,12 @@ margin:0px
 .background-pc{
     background-image: url(../image/Hero-bg.png);
     width: 1440px;
-    height: 652px;
-    
-     
-     
+    height: 652px; 
 }
- 
+ .back-img{
+    background-image: url(../image/handshake.jpg);
+    color: rgba(13, 19, 33, 1);
+ }
 .banner-title{
     text-align: center;
 }
@@ -36,15 +36,28 @@ margin:0px
 .banner-btn{
    background-color:rgba(13, 19, 33, 1);
      color: white;
+     border-radius: 5px;
+      
+
      
  }
     
- 
+ .container{
+    width: 80%;
+    margin: 40px auto;
+    border-radius: 4px;
+    box-shadow: 5px 5px 8px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    align-items: center;
+ }
 .text-center{
    text-align: center;
  
-  
-    
+  .video{
+    width: 80px%;
+    height: 20%;
+    border-radius: 5px;
+  }
 }
 .banner-2{
     display: flex;
@@ -68,3 +81,23 @@ margin:0px
     border-radius: 5px;
    
 }
+ 
+ 
+ .footer{
+    display:flex;
+     justify-content: space-between;
+     margin:0px 50px;
+
+ }
+ nav{
+    align-items: center;
+    
+ }
+ nav ul li {
+list-style: none;
+margin: 5px;
+
+ }
+ nav ul {
+    display: flex;
+ }
